@@ -1,6 +1,6 @@
 .header {
-    background-color: #000;
-    border-bottom: 2px solid #F44336;
+    background-color: #000000;
+    border-bottom: 2px solid #f44336;
     position: fixed;
     top: 0;
     width: 100%;
@@ -12,13 +12,13 @@
 
 .header span {
     font-size: 2rem;
-    color: #F44336;
+    color: #b71c1c;
     font-weight: 500;
 }
 
 .header a {
     text-decoration: none;
     color: #fff;
-    padding-inline: 0.5rem;
-    font-size: 18px; /* 18px = 1.125rem */
+    padding-inline: 1rem;
+    font-size: 1.125rem; /* 18px = 1.125rem; */
 }
