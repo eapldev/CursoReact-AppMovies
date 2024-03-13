@@ -3,6 +3,8 @@
     min-height: 100vh; /* era 450px no video o correto é min-height */
     background-color: #191919;
     color: #fff;
-    padding-block: 1.5rem;
+    padding-bottom: 1.5rem;
     text-align: center;
+    padding-inline: 1.5rem;
+    overflow: hidden;
 }
