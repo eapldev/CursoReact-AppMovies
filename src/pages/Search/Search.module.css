@@ -1,7 +1,7 @@
 .search {
     width: 100%;
     min-width: 600px;
-    padding-top: 88px;
+    padding-top: 85px;
     display: flex;
     flex-direction: column;
 }
