@@ -4,6 +4,7 @@ import Footer from '../../components/Footer'
 import styles from './Favorites.module.css'
 import VideoList from '../../components/VideoList'
 import { useFavoriteContext } from '../../contexts/Favorites'
+import ScrollToTopButton from '../../components/ScrollToTopButton'
 
 function Favorites() {
 
@@ -11,11 +12,12 @@ function Favorites() {
 
     return (
         <>
+            <ScrollToTopButton />
             <Header />
             <Container>
-                <section className={styles.favorites}>
+            <section className={styles.favorites}>
                     <h2>Meus Favoritos</h2>
-                    { <VideoList videos={favorite} /> }
+                    { <VideoList videos={favorite} emptyHeading="🤔 Sem favoritos 🤔" /> }
                 </section>
             </Container>
             <Footer />

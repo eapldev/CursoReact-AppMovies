@@ -5,11 +5,13 @@ import Container from '../../components/Container';
 import Card from '../../components/Card';
 import Category, { categories, filterCategory } from '../../components/Category';
 import Carousel from '../../components/Carousel'
+import ScrollToTopButton from '../../components/ScrollToTopButton'
 
 function Home() {
 
   return (
     <>
+      <ScrollToTopButton />
       <Header />
       <Banner image="home" />
       <Container>
