@@ -5,12 +5,12 @@
     justify-content: flex-end;
 }
 
-.cover {
+.capa {
     width: 225px;
     border-radius: 8px;
 }
 
-.cover:hover {
+.capa:hover {
     transform: scale(1.15);
     border-radius: 10px;
     box-shadow: 0 0 10px #222;
@@ -27,7 +27,7 @@
     justify-content: center;
     position: absolute;
     margin-right: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .icon:hover {
